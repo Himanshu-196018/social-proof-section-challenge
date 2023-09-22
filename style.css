@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+}
+
+body {
+  font-size: 15px;
+  font-family: "League Spartan", sans-serif;
+  background-image: url("images/bg-pattern-top-mobile.svg"),
+    url("images/bg-pattern-bottom-mobile.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
+  display: grid;
+  justify-content: center;
+}
+
+main {
+  max-width: 325px;
+  min-height: 100vh;
+  margin: 60px 25px 0;
+}
+
+.row {
+  text-align: center;
+  color: var(--very-dark-magenta);
+}
+h1 {
+  font-size: 40px;
+  line-height: 0.8;
+  font-weight: 700px;
+}
+
+header > p {
+  margin-top: 20px;
+  font-size: 17px;
+  line-height: 1.28;
+  font-weight: 500px;
+  color: var(--dark-grayish-magenta);
+}
+
+section {
+  margin-top: 40px;
+  display: grid;
+  row-gap: 15px;
+}
+.box {
+  height: 70px;
+  font-weight: 700;
+  border-radius: 10px;
+  background-color: var(--light-grayish-magenta);
+  display: grid;
+  align-content: space-evenly;
+}
+
+.row-feedback {
+  margin-top: 50px;
+  color: white;
+}
+
+.card {
+  padding: 30px;
+  margin-bottom: 15px;
+  height: 250px;
+  background-color: var(--very-dark-magenta);
+  border-radius: 10px;
+}
+
+.customer {
+  margin: 10px 0 25px;
+  display: grid;
+  align-content: center;
+  grid-template-columns: 1fr 4fr;
+}
+.customer img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.info {
+  display: grid;
+  font-size: 16px;
+  font-weight: 500;
+  align-content: space-between;
+}
+.info > .name {
+  font-weight: 500;
+}
+.info > .status {
+  color: var(--soft-pink);
+}
+q {
+  max-width: 260px;
+  font-weight: 500;
+  line-height: 1.5;
+  word-spacing: 4px;
+}
+
+/* styling footer content of the page */
+footer {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--dark-grayish-magenta);
+}
+footer a {
+  color: purple;
+}
