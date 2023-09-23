@@ -23,7 +23,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL: [Solution](https://github.com/Himanshu-196018/social-proof-section-challenge)
-- Live Site URL: [Demo/site](DEMO LINK)
+- Live Site URL: [Demo/site](https://social-proof-section-himanshu-196018.netlify.app/)
 
 ## My process
 
